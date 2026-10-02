@@ -3,6 +3,9 @@
     padding: 0;
 }
 
+
+
+/* Nav Bar for the Heading */
 #nav{
     height: 10vmin;
     background-color: #2B303A;
@@ -14,16 +17,18 @@
 }
 
 
-
+/* The message container for showing winner */
 .msg-container{
+    padding-top: 2vmin;
+    height: 30vmin;
     background-color:beige;
     text-align: center;
-    padding-bottom: 5vmin;
 }
 #winner-msg{
     font-size: 100px;
 }
 #new-game{
+    margin-top: 5vmin;
     background-color: #D8572A;
 }
 .hide{
@@ -32,6 +37,7 @@
 
 
 
+/* the background below nav bar */
 #container{
     height: 90vmin;
     background-color: #0C7C59;
@@ -41,6 +47,9 @@
     justify-content: center;
 }
 
+
+
+/* Area where the boxes are stored */
 #game{
     height: 50vmin;
     width: 50vmin;
@@ -50,7 +59,6 @@
     justify-content: center;
     gap: 1.2vmin;
 }
-
 .box{
     height: 15vmin;
     width: 15vmin;
@@ -63,18 +71,15 @@
     color: #263B3E;
 }
 
+
+/* Reset and new game button styling */
 .button{
     height: 7vmin;
     width: 20vmin;
-}
-
-
-.button{
     font-size: x-large;
     border-radius: 1rem;
     border: none;
 }
-
 #reset{
     background-color:burlywood;
     margin: 5vmin;
